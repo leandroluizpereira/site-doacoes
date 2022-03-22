@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(214, 237, 252);
+}
+.fundo{
+      /*com isso o header ficará sempre com o tamanho da tela */
+  height: 100%;
+  width: 100%;
+  /*background geralmente uso o modo compacto, mas aqui vou colocar separadamente para explicar cada parte*/
+  /* aqui defino a imagem maior*/
+  background-image: url("static/imagem/background-doacao.webp");
+  /*deixa o background com efeito paralax*/
+  background-attachment: fixed;
+  /* cover é para nunca deixar espaço sem imagem*/
+  background-size: cover;
+}
+nav{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: aquamarine;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(10, 107, 107);
+    color: white;
+    
+    
+
+}
+
+button{
+    
+    position: absolute;
+     top: 50%;
+     left: 50%;
+
+}
+.container{
+    border-radius: 10px;
+    border: 12px solid rgb(10, 107, 107);
+}
