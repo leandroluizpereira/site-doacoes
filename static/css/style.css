@@ -18,15 +18,20 @@ nav{
  justify-content: center;
  align-items: center;
  
+ 
 }
 li{
     list-style: none;
     padding: 10px;
     background-color: rgb(10, 107, 107);
     color: white;
-    
-    
+}
+li:first-child{
+    border-radius: 10px 0px 0px 0px;
+}
+li:last-child{
 
+    border-radius:0px  10px 0px 0px;
 }
 
 button{
@@ -38,5 +43,15 @@ button{
 }
 .container{
     border-radius: 10px;
-    border: 12px solid rgb(10, 107, 107);
+    border: 10px solid rgb(10, 107, 107);
+}
+
+footer{
+    background-color:rgb(10, 107, 107) ;
+    width: 100%;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
 }
