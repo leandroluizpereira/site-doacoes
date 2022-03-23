@@ -72,8 +72,10 @@ h1{
     background-color:rgb(10, 107, 107) ;
     margin: 10px;
     border-radius: 10px;
-    background-image: url(../imagem/background-doacao.webp);
+    background-image: url(../imagem/sangue-fundo.webp);
     background-size: cover;
+    background-position: center;
+    cursor: pointer;
     
     
    
@@ -86,6 +88,7 @@ h1{
     background-color:rgb(10, 107, 107) ;
     margin: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .cardTres{
@@ -95,4 +98,5 @@ h1{
     background-color:rgb(10, 107, 107) ;
     margin: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
