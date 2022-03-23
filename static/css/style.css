@@ -86,7 +86,7 @@ h1{
    
 }
 .cardUm:hover{
-    width: 50%;
+    width: 30%;
     height: 300px;
    /* animation: expandir 20s linear;*/
 }
@@ -98,6 +98,9 @@ h1{
     background-color:rgb(10, 107, 107) ;
     margin: 10px;
     border-radius: 10px;
+    background-image: url(../imagem/doacao-cabelo.webp);
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
     transform-origin: 0% 0%;
     transition-duration:2s;
@@ -107,7 +110,7 @@ h1{
    
 }
 .cardDois:hover{
-    width: 100%;
+    width: 30%;
     height: 300px;
    /* animation: expandir 20s linear;*/
 }
