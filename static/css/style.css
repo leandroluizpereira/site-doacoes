@@ -72,10 +72,15 @@ h1{
     background-color:rgb(10, 107, 107) ;
     margin: 10px;
     border-radius: 10px;
+    background-image: url(../imagem/background-doacao.webp);
+    background-size: cover;
+    
+    
+   
 }
 
 .carddois{
-  
+
     width: 200px;
     height: 300px;
     background-color:rgb(10, 107, 107) ;
