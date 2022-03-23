@@ -33,7 +33,10 @@ li:last-child{
 
     border-radius:0px  10px 0px 0px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 button{
     
     position: absolute;
