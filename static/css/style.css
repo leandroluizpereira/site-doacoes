@@ -77,9 +77,18 @@ h1{
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    transition-duration:2s;
+    transform-origin: 0% 0%
+    
+ 
     
     
    
+}
+.cardUm:hover{
+    width: 50%;
+    height: 300px;
+   /* animation: expandir 20s linear;*/
 }
 
 .cardDois{
@@ -90,6 +99,17 @@ h1{
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    transform-origin: 0% 0%;
+    transition-duration:2s;
+ 
+    
+    
+   
+}
+.cardDois:hover{
+    width: 100%;
+    height: 300px;
+   /* animation: expandir 20s linear;*/
 }
 
 .cardTres{
@@ -100,4 +120,34 @@ h1{
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    transform-origin: 0% 0%;
+    transition-duration:2s;
+ 
+    
+    
+   
+}
+.cardTres:hover{
+    width: 100%;
+    height: 300px;
+   /* animation: expandir 20s linear;*/
+}
+
+
+@keyframes ????? {
+
+    from{
+   
+
+    }
+    20%{
+    
+    100%{
+    
+    }
+
+}
+
+
+
 }
