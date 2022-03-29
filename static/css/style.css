@@ -129,7 +129,7 @@ h1{
   
 }
 .cardUm{
- 
+    opacity: 0.5;
     width: 200px;
     height: 300px;
     background-color:var(--color-principal) ;
@@ -151,10 +151,11 @@ h1{
 .cardUm:hover{
     width: 30%;
     height: 300px;
+    opacity: 1;
 }
 
 .cardDois{
-
+    opacity: 0.5;
     width: 200px;
     height: 300px;
     background-color:var(--color-principal) ;
@@ -175,10 +176,11 @@ h1{
 .cardDois:hover{
     width: 30%;
     height: 300px;
+    opacity: 1;
 }
 
 .cardTres{
-  
+    opacity: 0.5;
     width: 200px;
     height: 300px;
     background-color:var(--color-principal);
@@ -196,6 +198,7 @@ h1{
 .cardTres:hover{
     width: 30%;
     height: 300px;
+    opacity: 1;
 }
 .titulo{
  position: relative;
@@ -266,6 +269,12 @@ align-items: center;
 
 }
 */
+
+
+
+      /*Para celular */
+
+
 
 @media screen and (max-width: 792px) {
     body{
