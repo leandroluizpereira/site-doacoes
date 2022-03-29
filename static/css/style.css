@@ -1,11 +1,11 @@
 
 :root {
-    --color-principal: #40A7B9;
+    --color-principal:#007193;
   }
 
 
 body{
-    background-color:#E9F1F6;
+    background-color:white;
 }
 .fundo{
       /*com isso o header ficará sempre com o tamanho da tela */
