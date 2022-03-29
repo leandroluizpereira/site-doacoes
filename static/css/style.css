@@ -7,8 +7,18 @@
 body{
     background-color:white;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:' template templatedois';
+    
+}
+
+
+
 .fundo{
-      /*com isso o header ficará sempre com o tamanho da tela */
+   grid-area: template;      /*com isso o header ficará sempre com o tamanho da tela */
   height: 100%;
   width: 100%;
   /*background geralmente uso o modo compacto, mas aqui vou colocar separadamente para explicar cada parte*/
@@ -18,6 +28,25 @@ body{
   background-attachment: fixed;
   /* cover é para nunca deixar espaço sem imagem*/
   background-size: cover;
+}
+
+
+.container-dois{
+    grid-area: templatedois;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: var(--color-principal);
+}
+
+h3{
+    width: 300px;
+    font-style: italic;
+    
+    color: white;
 }
 nav{
  display: flex;
@@ -58,7 +87,7 @@ button{
 
 }
 .container{
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     border: 5px solid var(--color-principal);
 }
 
