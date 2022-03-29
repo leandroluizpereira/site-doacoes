@@ -15,7 +15,24 @@ body{
     
 }
 
+.imagem-coracao{
+    width: 15px;
+    animation: anima infinite 2s ;
+}
 
+@keyframes anima {
+    from{
+        width: 15px;
+    }
+    50%{
+        width: 25px;
+    }
+        to{
+            width: 15px;
+        }
+
+   
+}
 
 .fundo{
    grid-area: template;      /*com isso o header ficará sempre com o tamanho da tela */
