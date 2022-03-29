@@ -46,7 +46,7 @@ button{
 }
 .container{
     border-radius: 10px;
-    border: 10px solid rgb(10, 107, 107);
+    border: 5px solid rgb(10, 107, 107);
 }
 
 footer{
@@ -78,7 +78,8 @@ h1{
     background-position: center;
     cursor: pointer;
     transition-duration:2s;
-    transform-origin: 0% 0%
+    transform-origin: 0% 0%;
+    border:2px solid #F44C72;
     
  
     
@@ -104,6 +105,7 @@ h1{
     cursor: pointer;
     transform-origin: 0% 0%;
     transition-duration:2s;
+    border:2px solid #DF9A18 ;
  
     
     
@@ -125,6 +127,7 @@ h1{
     cursor: pointer;
     transform-origin: 0% 0%;
     transition-duration:2s;
+    border:2px solid rgb(10, 107, 107) ;
  
     
     
@@ -135,6 +138,33 @@ h1{
     height: 300px;
    /* animation: expandir 20s linear;*/
 }
+.titulo{
+ position: relative;
+ top: 84%;
+ background-color: #F44C72;
+ width: 100%;
+ height: 30px;
+ border-radius: 0px 0px 10px 10px;
+}
+.h3-titulo{
+    text-align: center;
+    color: white;
+  
+}
+
+.titulo-dois{
+    position: relative;
+    top: 84%;
+    background-color: #DF9A18;
+    width: 100%;
+    height: 30px;
+    border-radius: 0px 0px 10px 10px;
+   }
+   .h3-titulo-dois{
+       text-align: center;
+       color: white;
+     
+   }
 
 
 @keyframes ????? {
