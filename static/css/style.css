@@ -6,6 +6,8 @@
 
 body{
     background-color:white;
+ 
+
 }
 
 .grid{
@@ -45,6 +47,7 @@ body{
   background-attachment: fixed;
   /* cover é para nunca deixar espaço sem imagem*/
   background-size: cover;
+  
 }
 
 
@@ -121,6 +124,7 @@ h1{
 }
 
 .conteinerCard{
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +134,14 @@ h1{
 
   
 }
+.curved{
+  
+  display: block;
+    
+ 
+}
 .cardUm{
+
     opacity: 0.5;
     width: 200px;
     height: 300px;
@@ -255,6 +266,7 @@ align-items: center;
      
    }
 
+
    /*
 
 @keyframes ????? {
@@ -318,6 +330,7 @@ align-items: center;
     transition-duration:2s;
     transform-origin: 0% 0%;
     border:2px solid var(--color-principal);
+  
 
 }
 .cardUm:hover{
