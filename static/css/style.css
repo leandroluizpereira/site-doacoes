@@ -62,16 +62,20 @@ body{
     border-radius: 0px 10px 10px 0px;
     background-color: var(--color-principal);
 }
-
+.container-p{
+    
+    width: 300px;
+    padding-top: 10px;
+}
 p{
    
     color: white; 
     font-style: italic;
     font-size: 20px;
     margin: 10px 0 0 10px;
-   /* white-space: nowrap;*/
+ 
     overflow: hidden;
-    width: 300px;
+    width: 100%;
    /* animation: type 4s steps(60, end); */
 }
 p:nth-child(2){
