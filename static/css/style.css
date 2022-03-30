@@ -317,7 +317,7 @@ align-items: center;
    }
 .borboleta{
     
-    top: 0px;
+    top: 400px;
     width: 40px;
     position: relative;
     animation: borboleta 25s infinite;
@@ -329,10 +329,10 @@ align-items: center;
      transform: translateX(100px);
     }
     50%{
-        transform: translateX(1000px);
-       
+        transform: translateX(900px);
+        
     }
-    85%{
+    90%{
         transform: scaleX(-1); 
     }
     to{
