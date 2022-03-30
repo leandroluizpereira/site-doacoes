@@ -121,6 +121,20 @@ footer{
    align-items: center;
 }
 
+.site{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.site:hover{
+    background-color: #9ebbc0;
+    color: var(--color-principal);
+    border: 2px solid var(--color-principal);
+    border-radius: 5px;
+
+}
+
 h1{
     text-align: center;
     color:  var(--color-principal);
