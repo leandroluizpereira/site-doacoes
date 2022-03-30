@@ -170,10 +170,11 @@ h1{
 section{
     background-color: rgb(87, 172, 87);
     padding-bottom: 20px;
+ 
 }
 
 .conteinerCard{
-   
+padding-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,8 +315,32 @@ align-items: center;
        color: white;
      
    }
+.borboleta{
+    
+    top: 0px;
+    width: 40px;
+    position: relative;
+    animation: borboleta 25s infinite;
+}
 
-  
+
+@keyframes borboleta{
+    from{
+     transform: translateX(100px);
+    }
+    50%{
+        transform: translateX(1000px);
+       
+    }
+    85%{
+        transform: scaleX(-1); 
+    }
+    to{
+        transform: scaleX(-1);
+        transform: translateX(100px);
+    }
+}
+
 
    /*
 
