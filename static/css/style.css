@@ -320,7 +320,7 @@ align-items: center;
     top: 400px;
     width: 40px;
     position: relative;
-    animation: borboleta 25s infinite;
+    animation: borboleta 50s infinite;
 }
 
 
@@ -330,12 +330,17 @@ align-items: center;
     }
     50%{
         transform: translateX(900px);
-        
+        top: 200px;
+    }
+
+    75%{
+        top:30px;
     }
     90%{
         transform: scaleX(-1); 
     }
     to{
+        top: 400px;
         transform: scaleX(-1);
         transform: translateX(100px);
     }
