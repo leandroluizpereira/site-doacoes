@@ -123,6 +123,10 @@ h1{
     text-align: center;
     color:  var(--color-principal);
 }
+section{
+    background-color: rgb(87, 172, 87);
+    padding-bottom: 20px;
+}
 
 .conteinerCard{
    
